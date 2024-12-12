@@ -1,0 +1,2 @@
+qari[[:space:]]part-1.mp4 filter=lfs diff=lfs merge=lfs -text
+models/wav2vec2-base/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,15 @@
+streamlit
+google-auth
+google-cloud-speech
+torch
+transformers
+numpy
+librosa
+groq
+sounddevice
+scipy
+pydub
+openai
+plotly
+streamlit-webrtc
+av
