@@ -131,7 +131,7 @@ st.markdown(f"<div style='font-size: 20px; text-align: center;'>Phrase to Practi
 st.markdown(f"<div style='font-size: 18px; text-align: center; color: #555;'>Meaning: {ideal_text_meaning}</div>", unsafe_allow_html=True)
 
 # Placeholder for expert audio playback
-st.audio("expert_azan_audio.mp3", format="audio/mp3")  # Replace with actual path
+st.audio("qari_part_1.mp3", format="audio/mp3")  # Replace with actual path
 
 # Upload audio file for pronunciation assessment
 st.markdown("<div style='font-size: 18px; text-align: center;'>Upload your Azan recitation audio (MP3 format):</div>", unsafe_allow_html=True)
