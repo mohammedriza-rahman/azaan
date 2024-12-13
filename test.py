@@ -22,7 +22,7 @@ speech_client = speech.SpeechClient(credentials=credentials)
 processor = Wav2Vec2Processor.from_pretrained("models/wav2vec2-base")
 model = Wav2Vec2Model.from_pretrained("models/wav2vec2-base")
 
-ideal_embedding = torch.tensor(np.load("ideal_azan_embedding.npy"))
+ideal_embedding = torch.tensor(np.load("ideal_embedding_part_1.npy"))
 Groq_api_key= st.secrets["GROQ_API_KEY"]
 groq_client = Groq(api_key=Groq_api_key)
 
