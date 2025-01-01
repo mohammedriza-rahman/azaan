@@ -1,6 +1,7 @@
 streamlit
 google-auth
 google-cloud-speech
+google-cloud-texttospeech
 torch
 transformers
 numpy
